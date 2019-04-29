@@ -1,0 +1,25 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/grid';
+@import '~bootstrap/scss/modal'; // add the grid
+
+* {
+    box-sizing: border-box;
+}
+
+.padding-top-bott-16 {
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.example-card {
+    width: auto;
+    height: auto;
+    margin-top: 16px;
+}
+
+.example-header-image {
+    background-size: cover;
+}
